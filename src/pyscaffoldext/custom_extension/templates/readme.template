@@ -1,0 +1,23 @@
+${title}
+
+
+${description}
+
+
+Usage
+=====
+
+The recommended way of running this project, is to clone the repository & run the notebook through docker:
+
+```python
+git clone ${url}
+docker build . -t ${name} --ssh default
+docker run 
+```
+
+
+Note
+====
+
+This project has been set up using PyScaffold ${version}. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
